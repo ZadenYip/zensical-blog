@@ -105,7 +105,7 @@ CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也
 <a id="ai-machine-learning"></a>
 ## 人工智能与机器学习
 
-一开始，本身对机器学习没啥兴趣（因为大家都在做，但出于想做的东西需要就去学习了。
+一开始，本身对机器学习没啥兴趣（但出于想做的东西需要就去学习了
 
 Michael Nielsen 的 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)，挺适合深度学习入门的，还在看。
 
