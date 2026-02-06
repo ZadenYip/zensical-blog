@@ -5,7 +5,6 @@ icon: material/account-circle
 # 关于我
 
 - 本科在读 CS 学生一只，喜欢为实现想法而学习技术
-- 某汉化组摸鱼狂魔（太忙了，目前没继续上工
 - 间隔重复（Spaced Repetition System）爱好者
 
 ## 经历
