@@ -58,7 +58,7 @@ CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也
 ## 操作系统
 
 《Operating Systems Principles and Practice》给我感觉收获很多，可惜没非常硬核的代码示例也没实际的工程实践结合。
-对于只想了解多线程开发，这本书只有第二卷值得读，主要是以条件变量和锁去构建多线程应用，对于信号量（semaphore）非常少，CAS 有提及，但是也不是很深入。除此之外，也另外做了一点 MIT 6.828 的 lab，但太枯燥了就没继续做下去。
+对于只想了解多线程开发，这本书只有第二卷值得读，主要是以条件变量和锁去构建多线程应用，对于信号量（semaphore）非常少，CAS 有提及，但是也不是很深入，关于 CAS 编程推荐看 Jeff Preshing 的博客。除此之外，也另外做了一点 MIT 6.828 的 lab，但太枯燥了就没继续做下去。
 
 - 《Operating Systems Principles and Practice Vol.1 Kernels and Processes》
 - 《Operating Systems Principles and Practice Vol.2 Concurrency》
@@ -82,12 +82,12 @@ CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也
 
 ## 数据库
 
-《Database System Concepts》这本书，主要是看的 PART 1 的 SQL 各种语句，其他部分还在考虑要不要看，感觉对实际应用帮助不大。  
+《Database System Concepts》这本书，主要是看的 Part 1 的 SQL 各种语句，其他部分还没看。 
 
-强烈推荐看[Use The Index, Luke!](https://use-the-index-luke.com/) ，对数据库查询优化有很大的理解和帮助，很贴近实际的工程场景，实践性很强。
+[Use The Index, Luke!](https://use-the-index-luke.com/) 是我读完《Database System Concepts》关于基础的 SQL 语句后看的第二个关于数据库系统的材料，这篇博客/书主要是教用如何用索引对数据库查询进行优化，以及索引背后的原理，很贴近实际的工程场景。
 
-- 《Database System Concepts》
-- [Use The Index, Luke!](https://use-the-index-luke.com/)（在看）
+- 《Database System Concepts》（Part 1）
+- [Use The Index, Luke!](https://use-the-index-luke.com/)
 
 ## 计算机体系结构
 
