@@ -48,3 +48,6 @@ SELECT first_name, last_name, subsidiary_id, employee_id
 来自[Smart Logic](https://use-the-index-luke.com/sql/where-clause/obfuscation/smart-logic)   
 
 
+> However, only SQL Server, the Oracle database and PostgreSQL 15+ can use them for a pipelined top-N query. MySQL, MariaDB0and Db2 (LUW) do not abort the index scan after fetching enough rows and therefore execute these queries very inefficiently. 
+然而，在目前的主流数据库中，仅有 SQL Server、Oracle 和 PostgreSQL 15+ 能够将窗口函数对接在流水线化 Top-N 查询（pipelined top-N query）。MySQL、MariaDB 和 Db2 (LUW) 在获取足够行数后不会中止（abort）索引扫描，因此执行此类查询时效率非常低。
+来自[Partial Results](https://use-the-index-luke.com/sql/partial-results/window-functions)
