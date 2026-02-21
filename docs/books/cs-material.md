@@ -112,6 +112,23 @@ Michael Nielsen 的 [Neural Networks and Deep Learning](http://neuralnetworksand
 - [Kaggle](https://www.kaggle.com)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 
+## 系统设计
+
+这里主要是搭建面向用户的系统时，读过的一些材料
+
+### 认证（Authentication）
+
+- [MDN HTTP Cookie](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Guides/Cookies)
+- [Stop using JWT for sessions](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/)
+- [What Are Refresh Tokens and How to Use Them Securely](https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/)
+- [Introduction to JSON Web Tokens](https://www.jwt.io/introduction#what-is-json-web-token)
+- [An Introduction to OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
+
+### 接口规范
+
+- [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
+- [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+
 ## 工具类
 
 [《Pro Git》](https://github.com/progit/progit2-zh)这本书，主要是看了前几章对暂存区，工作区概念的学习，剩下的其他东西主要还是边用边学了。  

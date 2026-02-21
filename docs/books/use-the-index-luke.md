@@ -34,19 +34,27 @@ SELECT first_name, last_name, subsidiary_id, employee_id
    AND ( UPPER(last_name) = :name   OR :name   IS NULL )
 ```
 该查询为了提高可读性使用了命名绑定变量。所有可能的过滤条件都被静态地写入了 SQL 语句中。只要某个过滤条件不需要，就传入 NULL 作为搜索值：通过 OR 逻辑将该条件“关闭”。
-从语法和语义上看，这是一条完全合理的 SQL 语句。NULL 的使用甚至也符合 SQL 三值逻辑（three-valued logic）的定义。然而，它却是性能最差的反模式（performance anti-pattern）之一。
+从语法和语义上看，这是一条完全合理的 SQL 语句。NULL 的使用甚至也符合 SQL 三值逻辑（three-valued logic）的定义。然而，它却是性能最差的反模式（performance anti-pattern）之一。  
 由于任何一个过滤条件都可能在运行时被“取消”，数据库无法针对某个特定过滤条件来优化执行计划。数据库只能为最坏情况做准备——即所有过滤条件都被禁用  
 来自[Smart Logic](https://use-the-index-luke.com/sql/where-clause/obfuscation/smart-logic)   
 
 静态 SQL：固定的 SQL 文本，除了绑定变量可变  
 动态 SQL：SQL 文本是进行拼接（变量拼接也属于拼接文本）  
 因为优化器的判断，静态 SQL 不一定能获得更好的执行计划，从而反而比用动态 SQL 的处理方案慢。
+
 ---
 
-> Nevertheless there is a widely used practice that avoids dynamic SQL in favor of static SQL—often because of the “dynamic SQL is slow” myth. This practice does more harm than good if the database uses a shared execution plan cache like Db2 (LUW), the Oracle database, or SQL Server.
+> Nevertheless there is a widely used practice that avoids dynamic SQL in favor of static SQL—often because of the “dynamic SQL is slow” myth. This practice does more harm than good if the database uses a shared execution plan cache like Db2 (LUW), the Oracle database, or SQL Server.  
 尽管（数据库是为动态SQL优化）如此，仍然有一种被广泛采用的做法：为了避免动态 SQL 而使用静态 SQL（static SQL）——这通常源于“动态 SQL 很慢（dynamic SQL is slow）”这一 myth。如果数据库使用共享执行计划缓存（shared execution plan cache）（例如 Db2（LUW）、Oracle 数据库或 SQL Server），这种做法往往弊大于利。  
 来自[Smart Logic](https://use-the-index-luke.com/sql/where-clause/obfuscation/smart-logic)   
 
+---
+
+To optimize update performance, you must take care to only update those columns that were changed. This is obvious if you write the update statement manually. ORM tools, however, might generate update statements that set all columns every time.  
+为了优化（optimize）更新性能，必须注意只更新那些确实发生了变化的列。如果你手动编写 update 语句，这一点显而易见。然而，ORM 工具可能会生成每次都设置所有列的 update 语句。  
+来自[Update](https://use-the-index-luke.com/sql/dml/update)
+
+---
 
 > However, only SQL Server, the Oracle database and PostgreSQL 15+ can use them for a pipelined top-N query. MySQL, MariaDB0and Db2 (LUW) do not abort the index scan after fetching enough rows and therefore execute these queries very inefficiently. 
 然而，在目前的主流数据库中，仅有 SQL Server、Oracle 和 PostgreSQL 15+ 能够将窗口函数对接在流水线化 Top-N 查询（pipelined top-N query）。MySQL、MariaDB 和 Db2 (LUW) 在获取足够行数后不会中止（abort）索引扫描，因此执行此类查询时效率非常低。
