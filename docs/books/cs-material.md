@@ -30,7 +30,11 @@ icon: material/book
 爬虫入门，主要直接用和看的 Scrapy 的文档，直接实践爬取我做项目要的词典数据了。至于数据分析和机器学习，选择了 Kaggle 学习相关的部分课，还有Michael Nielsen 的[NNDL](http://neuralnetworksanddeeplearning.com/)，相关见[人工智能与机器学习](#ai-machine-learning)。
 
 - [Python 官方教程](https://docs.python.org/zh-cn/3.12/tutorial/index.html)
+  
+### Rust
 
+- [Rust 程序设计语言](https://kaisery.github.io/trpl-zh-cn/)
+- Rust in Action（未来计划）
 
 ### 前端类
 
