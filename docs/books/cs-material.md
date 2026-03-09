@@ -78,10 +78,9 @@ CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也
 
 ## 计算机网络
 
-《Computer Networking: A Top-Down Approach》这本书，只看了从 1 到 6 章，第 7 章开始从标题离应用层面太远了就没看了（
-搓完了 CS144 2024 Winter 的所有 lab，主要还对 TCP 和 ARP 协议上促进更深的理解。
+《Computer Networking: A Top-Down Approach》这本书，看了从 1 到 6 章，以及第 8 章，至于 7、9 章节因为时间问题以及没那么感兴趣并没有读下去。除了读了上面那本书，还搓完了 CS144 2024 Winter 的所有 lab，不过这个 lab 主要还是对 TCP 和 ARP 协议上促进更深的理解。
 
-- Computer Networking: A Top-Down Approach  
+- Computer Networking: A Top-Down Approach 7ed
 - CS144 2024 Winter lab
 
 ## 数据库
