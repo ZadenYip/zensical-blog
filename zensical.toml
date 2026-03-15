@@ -52,7 +52,9 @@ nav = [
       "posts/angular-electron-vscode-debugger.md",
       "posts/multiple-tsconfig-vscode.md",
       "posts/bt-24/bt-24.md",
-      "posts/electron-node-module-problem.md"
+      "posts/electron-node-module-problem.md",
+      "posts/pnpm-electron.md",
+      "posts/server-configuration.md"
   ]},
   { "看过的学习材料" = [
       "books/cs-material.md",
