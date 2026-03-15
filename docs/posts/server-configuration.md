@@ -7,8 +7,11 @@
 
 ### 体操 1（改 ssh 端口）
 
-```/etc/ssh/sshd_config
-#   Port 22
+
+```
+/etc/ssh/sshd_config
+
+# Port 22
 ```
 去注释改端口，避免暴露在公网后总被扫描（也可配置 iptables 处理）。
 
@@ -17,10 +20,11 @@
 
 开启 TCP 转发让 VSCode-Server 被连接时能正常用
 
-```/etc/ssh/sshd_config
+```
+/etc/ssh/sshd_config
+
 AllowTcpForwarding yes
 ```
-export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 
 ### 体操 3（客户端可选）
