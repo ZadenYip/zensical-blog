@@ -54,7 +54,8 @@ nav = [
       "posts/bt-24/bt-24.md",
       "posts/electron-node-module-problem.md",
       "posts/pnpm-electron.md",
-      "posts/server-configuration.md"
+      "posts/server-configuration.md",
+      "posts/pandas-insert-pitfall.md"
   ]},
   { "看过的学习材料" = [
       "books/cs-material.md",
