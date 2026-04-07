@@ -31,10 +31,12 @@ icon: material/book
 
 - [Python 官方教程](https://docs.python.org/zh-cn/3.12/tutorial/index.html)
   
+
 ### Rust
 
 - [Rust 程序设计语言](https://kaisery.github.io/trpl-zh-cn/)
 - Rust in Action（未来计划）
+
 
 ### 前端类
 
@@ -47,12 +49,12 @@ icon: material/book
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 - [RP 入门](https://github.com/benjycui/introrx-chinese-edition)
 
+
 ## 算法与数据结构
 
 这部分学习材料比较零散，都没有一个比较满意的系统书籍，主要还是靠做 CS61B lab 练习。
 
 CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也没看了。红皮的算法主要看的图和排序部分，Hello 算法主要是补充概念上的知识。 CLRS 主要是作为工具书便用变学看的。
-
 
 - CS61B 国外课程
 - 红皮的《算法（第四版）》
@@ -66,8 +68,8 @@ CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也
 
 - 《Operating Systems Principles and Practice Vol.1 Kernels and Processes》
 - 《Operating Systems Principles and Practice Vol.2 Concurrency》
-- 《Operating Systems Principles and Practice Vol.3 Memory and Management 》
-
+- 《Operating Systems Principles and Practice Vol.3 Memory and Management》
+- 《Operating Systems Principles and Practice, Vol.4 Persistent Storage》（在读）
 
 ## 并发编程
 
@@ -76,12 +78,16 @@ CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也
 - [Jeff Preshing](https://preshing.com/)
 - [Eli Bendersky](https://eli.thegreenplace.net/tag/concurrency)
 
+
 ## 计算机网络
 
 《Computer Networking: A Top-Down Approach》这本书，看了从 1 到 6 章，以及第 8 章，至于 7、9 章节因为时间问题以及没那么感兴趣并没有读下去。除了读了上面那本书，还搓完了 CS144 2024 Winter 的所有 lab，不过这个 lab 主要还是对 TCP 和 ARP 协议上促进更深的理解。
 
 - Computer Networking: A Top-Down Approach 7ed
 - CS144 2024 Winter lab
+- 《TCP/IP Illustrated, Volume 1》（未来计划）
+- 《High Performance Browser Networking》（未来计划）
+
 
 ## 数据库
 
@@ -94,7 +100,7 @@ CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也
 
 ## 计算机体系结构
 
-《Computer Organization and Design RISC-V Edition》这本书，只看了 1，2，3，5章，主要还是不太感兴趣，没继续看下去，对汇编倒是有了一些了解。
+《Computer Organization and Design RISC-V Edition》这本书，只看了 1，2，3，5章，因为对实际开发启发比较少，等有时间再回来看看剩下的。
 
 - Computer Organization and Design RISC-V Edition
 - CS61C 的 risc-v 的 lab (没做完)
@@ -104,20 +110,28 @@ CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也
 因为对写一个字幕文件的解析器有需求，去了解了下相关工具处理看了 [LLVM Tutorial](https://llvm.org/docs/tutorial/) 的前两章，前两章已经完全够我当时处理字幕文件的需求了。不过，我本身对编译原理并不是特别感兴趣，因此也没有继续深入学习下去。
 
 - [LLVM Tutorial](https://llvm.org/docs/tutorial/)
+- 《Crafting Interpreters》（目前处于暂停阅读）
 
 <a id="ai-machine-learning"></a>
 ## 人工智能与机器学习
 
 一开始，本身对机器学习没啥兴趣（但出于想做的东西需要就去学习了
 
-Michael Nielsen 的 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)，挺适合深度学习入门的，还在看。
+Michael Nielsen 的 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)，挺适合深度学习入门的。
 
 - [Kaggle](https://www.kaggle.com)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
+- ISLP（未来计划）
 
 ## 系统设计
 
 这里主要是搭建面向用户的系统时，读过的一些材料
+
+### 系统
+
+《Designing Data-Intensive Applications 2nd Edition》又名 DDIA，对于没有完整的生产级应用系统设计的小白来看，这本书很出色，非常值得一读。书的内容主要是涵盖面对密集数据要处理的应用，系统如何设计和权衡。
+
+- 《Designing Data-Intensive Applications 2nd Edition》（在看）
 
 ### 认证（Authentication）
 
