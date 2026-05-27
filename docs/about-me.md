@@ -23,7 +23,7 @@ icon: material/account-circle
 - Rust (在学)
 
 <img 
-src="https://github-readme-stats-zadenyip.vercel.app/api/top-langs/?username=ZadenYip&hide=html,css,CMake,BitBake,Fluent,JavaScript,Makefile&theme=transparent&layout=donut&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR"
+src="https://github-readme-stats-zadenyip.vercel.app/api/top-langs/?username=ZadenYip&hide=html,css,scss,CMake,BitBake,Fluent,JavaScript,Makefile&theme=transparent&layout=donut&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR"
 alt="My Language stats"
 height="320"
 />
