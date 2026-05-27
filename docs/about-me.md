@@ -20,7 +20,8 @@ icon: material/account-circle
 - C/C++
 - Python
 - TypeScript
-- Rust (在学)
+- Rust
+- Go
 
 <img 
 src="https://github-readme-stats-zadenyip.vercel.app/api/top-langs/?username=ZadenYip&hide=html,css,scss,CMake,BitBake,Fluent,JavaScript,Makefile&theme=transparent&layout=donut&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR"
@@ -28,7 +29,7 @@ alt="My Language stats"
 height="320"
 />
 
-看起来会的语言很多，但实际技术程度不是很深。比如说 Java 我没学过 Spring boot 之类的框架，主要围绕的是 Bukkit 和 Forge 开发，对于 C/C++ 就是因为尝试新鲜的事物写过相关的嵌入式代码，Python 主要是用于爬虫和处理一些数据。因此，对于实际项目开发来说，可能需要花时间学习相关的框架和技术栈。因此，最近我也在尝试写点有实际意义的项目来进行学习相关的框架。
+看起来会的语言很多，但实际技术程度相对来说不是很深。比如说 Java 我没学过 Spring boot 之类的框架，主要围绕的是 Bukkit 和 Forge 开发，对于 C/C++ 就是因为尝试新鲜的事物写过相关的嵌入式代码，Python 主要是用于爬虫和处理一些数据。对 Rust 处于了解的阶段，Go 是未来打算用作业务开发的主要语言。
 
 ## 联系方式
 邮箱：[HyFrenCN@gmail.com](mailto:HyFrenCN@gmail.com)
