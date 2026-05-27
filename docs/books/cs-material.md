@@ -85,7 +85,7 @@ CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也
 
 - Computer Networking: A Top-Down Approach 7ed
 - CS144 2024 Winter lab
-- 《TCP/IP Illustrated, Volume 1》（未来计划）
+- 《TCP/IP Illustrated, Volume 1》（在读）
 - 《High Performance Browser Networking》（未来计划）
 
 
@@ -95,7 +95,7 @@ CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也
 
 [Use The Index, Luke!](https://use-the-index-luke.com/) 是我读完《Database System Concepts》关于基础的 SQL 语句后看的第二个关于数据库系统的材料，这篇博客/书主要是教用如何用索引对数据库查询进行优化，以及索引背后的原理，很贴近实际的工程场景。
 
-- 《Database System Concepts》（Part 1）
+- 《Database System Concepts》（Part 1 + 一些零零散散的数据库底层章节）
 - [Use The Index, Luke!](https://use-the-index-luke.com/)
 
 ## 计算机体系结构
@@ -115,7 +115,7 @@ CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也
 <a id="ai-machine-learning"></a>
 ## 人工智能与机器学习
 
-一开始，本身对机器学习没啥兴趣（但出于想做的东西需要就去学习了
+个人对这个区域只是浅尝辄止，因为没打算做大模型相关内容。学习这块内容主要原因是，我对 [间隔重复领域](https://supermemo.guru/wiki/Spaced_repetition) 感兴趣，而领域前沿的 [FSRS 算法](https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler/tree/main) 用到了机器学习领域以及衍生出来的知识，所以才学习的。
 
 Michael Nielsen 的 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)，挺适合深度学习入门的。
 
