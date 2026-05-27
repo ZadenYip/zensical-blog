@@ -1,1 +1,1 @@
-link: [https://zadenyip.github.io/zensical-blog/](https://zadenyip.github.io/zensical-blog/)
+link: [https://blog.hyfren.com/](https://blog.hyfren.com/)
