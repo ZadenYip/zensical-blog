@@ -64,12 +64,15 @@ CS61B 没全部看完，做到实现简易的 Git 就没做了，后面的课也
 ## 操作系统
 
 《Operating Systems Principles and Practice》给我感觉收获很多，可惜没非常硬核的代码示例也没实际的工程实践结合。
-对于只想了解多线程开发，这本书只有第二卷值得读，主要是以条件变量和锁去构建多线程应用，对于信号量（semaphore）非常少，CAS 有提及，但是也不是很深入，关于 CAS 编程推荐看 Jeff Preshing 的博客。除此之外，也另外做了一点 MIT 6.828 的 lab，但太枯燥了就没继续做下去。
+对于只想了解多线程开发，这本书只有第二卷值得读，主要是以条件变量和锁去构建多线程应用，对于信号量（semaphore）非常少，CAS 有提及，但是也不是很深入，关于 CAS 编程推荐看 Jeff Preshing 的博客。
+
+2026-06-03 看完了第四卷，个人觉得是这四卷中对令我惊艳的一卷，补齐了很早接触电脑时就遇到到的 RAID、分区和文件系统等底层原理的认知。
+可能考虑写下书评？
 
 - 《Operating Systems Principles and Practice Vol.1 Kernels and Processes》
 - 《Operating Systems Principles and Practice Vol.2 Concurrency》
 - 《Operating Systems Principles and Practice Vol.3 Memory and Management》
-- 《Operating Systems Principles and Practice, Vol.4 Persistent Storage》（在读）
+- 《Operating Systems Principles and Practice, Vol.4 Persistent Storage》
 
 ## 并发编程
 
