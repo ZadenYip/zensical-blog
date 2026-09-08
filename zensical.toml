@@ -55,7 +55,8 @@ nav = [
       "posts/pnpm-electron.md",
       "posts/server-configuration.md",
       "posts/pandas-insert-pitfall.md",
-      "posts/cpp-closure-pitfall.md"
+      "posts/cpp-closure-pitfall.md",
+      "posts/replace-micro-switch/replace-micro-switch.md",
   ]},
   { "看过的学习材料" = [
       "books/cs-material.md"
